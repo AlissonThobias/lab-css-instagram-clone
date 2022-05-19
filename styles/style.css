@@ -4,7 +4,90 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #51799B 40%,white 40%)
+}
+ 
+#separate{
+  margin-top: 150px;
+  justify-content: center;
+  display: flex;
+}
+
+article{
+  padding-right: 50px;
+}
+
+section{
+  width: 600px;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 40px 50px;
+}
+
+div#logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#home{
+  padding-right: 10px;
+}
+
+#login{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+
+  border: 1px solid black;
+  background-image: linear-gradient(to top,#51799B , #7a9bb6);
+  color: white;
+  padding: 0px 20px;
+  margin-left: 152px;
+  text-decoration: none;
+  height: 50px;
+}
+
+h1{
+  color: #06365f;
+  font-size: 2em;
+  padding-bottom: 10px;
+}
+
+p{
+  padding-bottom: 20px;
+}
+
+#download img{
+  margin-top: 20px;
+  width: 200px;
+  padding-right: 25px;
+}
+
+footer{
+  margin-top: 35x;
+  display: flex;
+  justify-content: center;
+}
+
+footer a{
+  font-size: 1em;
+  font-weight: bold;
+  color: #1c5380;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#gray{
+  color: gray;
 }
